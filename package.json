@@ -1,0 +1,16 @@
+{
+  "name": "api",
+  "private": "true",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.4.4",
+    "supertest": "^6.1.6"
+  },
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/.jest/globals.js"
+    ]
+  }
+}
